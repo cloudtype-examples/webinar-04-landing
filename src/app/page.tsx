@@ -42,7 +42,7 @@ const Home = () => {
                 </Link>
               )}
             </div>
-            {banner.image && (
+            {/* {banner.image && (
               <div className="col-12">
                 <ImageFallback
                   src={banner.image}
@@ -53,7 +53,7 @@ const Home = () => {
                   priority
                 />
               </div>
-            )}
+            )} */}
           </div>
         </div>
       </section>

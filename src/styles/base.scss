@@ -4,6 +4,7 @@ html {
 
 body {
   @apply bg-body font-primary font-normal leading-relaxed text-text dark:bg-darkmode-body dark:text-darkmode-text;
+  font-family: 'GmarketSansTTFMedium';
 }
 
 h1,
@@ -13,6 +14,7 @@ h4,
 h5,
 h6 {
   @apply font-secondary font-bold leading-tight text-dark dark:text-darkmode-dark;
+  font-family: 'GmarketSansTTFMedium';
 }
 
 h1,

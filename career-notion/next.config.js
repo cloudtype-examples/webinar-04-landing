@@ -1,6 +1,6 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
-  enabled: process.env.ANALYZE === 'true'
+  enabled: process.env.ANALYZE === 'false'
 })
 
 module.exports = withBundleAnalyzer({
@@ -16,7 +16,7 @@ module.exports = withBundleAnalyzer({
       'file.notion.so',
       'miro.medium.com'
     ],
-    formats: ['image/avif', 'image/webp', 'image/apng', 'image/svg+xml'],
+    formats: ['image/avif', 'image/webp'],
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;"
   }

@@ -15,6 +15,10 @@
     {
       "name": "Blog",
       "url": "blog.ggingdev.com"
+    },
+    {
+      "name": "Docs",
+      "url": "docs.ggingdev.com"
     }
   ],
   "footer": [

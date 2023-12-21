@@ -16,7 +16,7 @@ module.exports = withBundleAnalyzer({
       'file.notion.so',
       'miro.medium.com'
     ],
-    formats: ['image/avif', 'image/webp'],
+    formats: ['image/avif', 'image/webp', 'image/apng', 'image/svg+xml'],
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;"
   }

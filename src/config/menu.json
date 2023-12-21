@@ -10,21 +10,21 @@
     },
     {
       "name": "Career",
-      "url": "career.ggingdev.com"
+      "url": "https://career.ggingdev.com"
     },
     {
       "name": "Blog",
-      "url": "blog.ggingdev.com"
+      "url": "https://blog.ggingdev.com"
     },
     {
       "name": "Docs",
-      "url": "docs.ggingdev.com"
+      "url": "https://docs.ggingdev.com"
     }
   ],
   "footer": [
     {
       "name": "Status",
-      "url": "status.ggingdev.com"
+      "url": "https://status.ggingdev.com"
     },
     {
       "name": "Privacy Policy",

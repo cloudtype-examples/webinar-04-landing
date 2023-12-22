@@ -1,111 +1,120 @@
-<h1 align=center>Nextjs + Tailwind CSS + TypeScript Starter and Boilerplate</h1>
+<br/>
+<br/>
 
-<p align=center>Nextplate is a free starter template built with Nextjs, TailwindCSS & TypeScript, providing everything you need to jumpstart your Next project and save valuable time.</p>
-
-<p align=center>Made with ♥ by<a href="https://zeon.studio/"> Zeon Studio</a></p>
-<p align=center> If you find this project useful, please give it a ⭐ to show your support. </p>
-
-<h2 align="center"> <a target="_blank" href="https://nextplate.netlify.app/" rel="nofollow">👀 Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https-nextplate-netlify-app/zttnq0z42d?form_factor=desktop">Page Speed (100%)🚀</a>
-</h2>
-
-<p align=center>
-
-  <a href="https://github.com/vercel/next.js/releases/tag/v14.0.2" alt="Contributors">
-    <img src="https://img.shields.io/static/v1?label=NEXTJS&message=13.4&color=000&logo=nextjs" />
-  </a>
-
-  <a href="https://github.com/zeon-studio/nextplate/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/zeon-studio/nextplate" alt="license"></a>
-
-  <img src="https://img.shields.io/github/languages/code-size/zeon-studio/nextplate" alt="code size">
-
-  <a href="https://github.com/zeon-studio/nextplate/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/zeon-studio/nextplate" alt="contributors"></a>
+<p align="center">
+<img src="https://files.cloudtype.io/logo/cloudtype-logo-horizontal-black.png" width="50%" alt="Cloudtype"/>
 </p>
 
-## 📌 Key Features
+<br/>
+<br/>
 
-- 👥 Multi-Authors
-- 🎯 Similar Posts Suggestion
-- 🔍 Search Functionality
-- 🌑 Dark Mode
-- 🏷️ Tags & Categories
-- 🔗 Netlify setting pre-configured
-- 📞 Support contact form
-- 📱 Fully responsive
-- 📝 Write and update content in Markdown / MDX
-- 💬 Disqus Comment
-- 🔳 Syntax Highlighting
+# 클라우드타입 웨비나 #04<br/>스타트업 운영에 필요한 <br> 랜딩 & 도큐멘테이션 한 번에 해결하기 <!-- omit in toc -->
 
-### 📄 15+ Pre-designed Pages
+## 목차 <!-- omit in toc -->
 
-- 🏠 Homepage
-- 👤 About
-- 📞 Contact
-- 👥 Authors
-- 👤 Author Single
-- 📝 Blog
-- 📝 Blog Single
-- 🚫 Custom 404
-- 💡 Elements
-- 📄 Privacy Policy
-- 🏷️ Tags
-- 🏷️ Tag Single
-- 🗂️ Categories
-- 🗂️ Category Single
-- 🔍 Search
+- [🗒️ 실습 예제](#️-실습-예제)
+- [🖇️ 준비사항](#️-준비사항)
+- [🗒️ 실습 예제 사양](#️-실습-예제-사양)
+- [🏠 랜딩페이지 배포하기](#-랜딩페이지-배포하기)
+  - [GitHub 저장소 fork / clone](#github-저장소-fork--clone)
+- [📈 Umami 배포 및 랜딩페이지 적용하기](#-umami-배포-및-랜딩페이지-적용하기)
+  - [Umami 초기 계정](#umami-초기-계정)
+  - [Websites 설정](#websites-설정)
+  - [랜딩페이지 재배포](#랜딩페이지-재배포)
+- [📋 Ghost 블로그 배포하기](#-ghost-블로그-배포하기)
+  - [Ghost 초기 설정 및 글 작성하기](#ghost-초기-설정-및-글-작성하기)
+- [🦖 Docusaurus 배포하기](#-docusaurus-배포하기)
+- [🟢 Uptime Kuma 배포 및 적용하기](#-uptime-kuma-배포-및-적용하기)
+  - [관리자 계정 생성](#관리자-계정-생성)
+- [📖 References](#-references)
+- [💬 Contact](#-contact)
 
-## 🚀 Getting Started
+## 🗒️ 실습 예제
 
-### 📦 Dependencies
+- **랜딩페이지**
+  - [Nextplate by Zeon studio](https://github.com/zeon-studio/nextplate)
+- **노션페이지**
+  - [Next.js Notion Starter Kit by Travis Fischer](https://github.com/transitive-bullshit/nextjs-notion-starter-kit)
+- **블로그**
+  - [Ghost](https://ghost.org/)
+- **개발 문서**
+  - [Docusaurus](https://docusaurus.io/)
+- **서비스 상태 모니터링**
+  - [Uptime Kuma](https://uptime.kuma.pet/)
+- 웹 사이트 트래픽 추적 및 분석
+  - [Umami](https://umami.is/)
 
-- next 14.0+
-- node v20.10+
-- npm v10.2+
-- tailwind v3.3+
+## 🖇️ 준비사항
 
-### 👉 Install Dependencies
+- [클라우드타입 계정](https://cloudtype.io/)
+- [Notion](https://www.notion.so/)
+- [GitHub 계정](https://github.com/)
 
-```bash
-npm install
-```
 
-### 👉 Development Command
+## 🗒️ 실습 예제 사양
 
-```bash
-npm run dev
-```
+- Node v18.19.0 이상
 
-### 👉 Build Command
 
-```bash
-npm run build
-```
+## 🏠 랜딩페이지 배포하기
 
-### 👉 Build and Run With Docker
+### GitHub 저장소 fork / clone
 
 ```bash
-docker build -t nextplate .
-docker run -p 3000:3000 nextplate
+git clone https://github.com/cloudtype-examples/webinar-04-landing.git
 ```
 
-<!-- reporting issue -->
+## 📈 Umami 배포 및 랜딩페이지 적용하기
 
-## 🐞 Reporting Issues
+### Umami 초기 계정
 
-We use GitHub Issues as the official bug tracker for this Template. Please Search [existing issues](https://github.com/zeon-studio/nextplate/issues). It’s possible someone has already reported the same problem.
-If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/zeon-studio/nextplate/issues).
+- Username: admin
+- Password: umami
 
-<!-- licence -->
+### Websites 설정
 
-## 📝 License
+Umami에서 추가한 웹 사이트의 **Tracking Code** 탭에서 코드를 복사한 후 HTML `<head>` 태그 내부에 작성합니다.
 
-Copyright (c) 2023 - Present, Designed & Developed by [Zeon Studio](https://zeon.studio/)
+<img src="https://files.cloudtype.io/webinar/webinar-04-01.png" width="90%" alt="Cloudtype"/>
 
-**Code License:** Released under the [MIT](https://github.comzeon-studio/nextplate/blob/main/LICENSE) license.
+### 랜딩페이지 재배포
 
-**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
+클라우드타입에서 랜딩페이지를 재배포 하여 Umami를 적용합니다.
 
-## 💻 Need Custom Development Services?
+<img src="https://files.cloudtype.io/webinar/webinar-04-02.png" width="90%" alt="Cloudtype"/>
 
-If you need a custom theme, theme customization, or complete website development services from scratch you can [Hire Us](https://zeon.studio/).
+
+## 📋 Ghost 블로그 배포하기
+
+### Ghost 초기 설정 및 글 작성하기
+
+```
+https://<호스트>/ghost
+```
+
+## 🦖 Docusaurus 배포하기
+
+## 🟢 Uptime Kuma 배포 및 적용하기
+
+### 관리자 계정 생성
+
+배포 후 최초 접속 시 관리자 계정 생성이 진행됩니다.
+
+<img src="https://files.cloudtype.io/webinar/webinar-04-03.png" width="90%" alt="Cloudtype"/>
+
+대시보드에서 모니터링 대상을 추가합니다.
+모니터링 주기 등 각종 설정을 상황에 맞게 변경할 수 있습니다.
+
+<img src="https://files.cloudtype.io/webinar/webinar-04-04.png" width="90%" alt="Cloudtype"/>
+
+
+## 📖 References
+
+- [클라우드타입 Docs](https://docs.cloudtype.io/)
+- [클라우드타입 FAQ](https://help.cloudtype.io/guide/faq)
+- [Nextplate by Zeon studio](https://github.com/zeon-studio/nextplate)
+- [Next.js Notion Starter Kit by Travis Fischer](https://github.com/transitive-bullshit/nextjs-notion-starter-kit)
+
+## 💬 Contact
+
+- [Discord](https://discord.gg/U7HX4BA6hu)

@@ -16,11 +16,14 @@
 - [🖇️ 준비사항](#️-준비사항)
 - [🗒️ 실습 예제 사양](#️-실습-예제-사양)
 - [🏠 랜딩페이지 배포하기](#-랜딩페이지-배포하기)
-  - [GitHub 저장소 fork / clone](#github-저장소-fork--clone)
+  - [GitHub 저장소 clone](#github-저장소-clone)
 - [📈 Umami 배포 및 랜딩페이지 적용하기](#-umami-배포-및-랜딩페이지-적용하기)
   - [Umami 초기 계정](#umami-초기-계정)
   - [Websites 설정](#websites-설정)
   - [랜딩페이지 재배포](#랜딩페이지-재배포)
+- [Notion 커스텀 페이지 배포](#notion-커스텀-페이지-배포)
+  - [Notion 페이지 ID 확인](#notion-페이지-id-확인)
+  - [Notion 페이지 ID 적용](#notion-페이지-id-적용)
 - [📋 Ghost 블로그 배포하기](#-ghost-블로그-배포하기)
   - [Ghost 초기 설정 및 글 작성하기](#ghost-초기-설정-및-글-작성하기)
 - [🦖 Docusaurus 배포하기](#-docusaurus-배포하기)
@@ -58,7 +61,7 @@
 
 ## 🏠 랜딩페이지 배포하기
 
-### GitHub 저장소 fork / clone
+### GitHub 저장소 clone
 
 ```bash
 git clone https://github.com/cloudtype-examples/webinar-04-landing.git
@@ -82,6 +85,32 @@ Umami에서 추가한 웹 사이트의 **Tracking Code** 탭에서 코드를 복
 클라우드타입에서 랜딩페이지를 재배포 하여 Umami를 적용합니다.
 
 <img src="https://files.cloudtype.io/webinar/webinar-04-02.png" width="90%" alt="Cloudtype"/>
+
+## Notion 커스텀 페이지 배포
+
+### Notion 페이지 ID 확인
+
+Notion 페이지의 링크를 복사한 뒤 다음 표시된 부분의 페이지 ID를 확인합니다.
+
+```
+https://www.notion.so/<페이지 ID>?pvs=4
+```
+
+### Notion 페이지 ID 적용
+
+다음의 저장소를 clone 한 뒤, `site.config.js` 의 다음 부분에 위에서 확인한 페이지 ID를 작성합니다. 
+
+```typescript
+import { siteConfig } from './lib/site-config'
+
+export default siteConfig({
+  // the site's root Notion page (required)
+  rootNotionPageId: '<페이지 ID>',
+  // if you want to restrict pages to a single notion workspace (optional)
+  // (this should be a Notion ID; see the docs for how to extract this)
+  rootNotionSpaceId: null,
+  ...
+```
 
 
 ## 📋 Ghost 블로그 배포하기

@@ -40,7 +40,8 @@ export default function RootLayout({
           media="(prefers-color-scheme: dark)"
           content="#000"
         />
-        <script async src="https://umami-umami-hkty2alqen7mhx.sel4.cloudtype.app/script.js" data-website-id="e4ec20c7-685f-46b4-9cd6-1e7fdcee9951"></script>
+
+        <script async src="https://umami-umami-5r422alqg6vx6k.sel4.cloudtype.app/script.js" data-website-id="5f91b338-9c54-4cc6-9357-15dc110937e9"></script>
 
         {/* google font css */}
         <link

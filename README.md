@@ -100,6 +100,10 @@ https://www.notion.so/<페이지 ID>?pvs=4
 
 다음의 저장소를 clone 한 뒤, `site.config.js` 의 다음 부분에 위에서 확인한 페이지 ID를 작성합니다. 
 
+```bash
+git clone https://github.com/cloudtype-examples/webinar-04-notion.git
+```
+
 ```typescript
 import { siteConfig } from './lib/site-config'
 

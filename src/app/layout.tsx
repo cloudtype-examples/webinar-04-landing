@@ -41,6 +41,8 @@ export default function RootLayout({
           content="#000"
         />
 
+        <script async src="https://umami-umami-5r422alqlrk514.sel4.cloudtype.app/script.js" data-website-id="c845b60a-d2b1-4850-b9b1-cae4b01534d1"></script>
+
         {/* google font css */}
         <link
           rel="preconnect"
